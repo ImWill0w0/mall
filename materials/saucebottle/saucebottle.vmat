@@ -1,0 +1,77 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_simple_liquid.vfx"
+
+	//---- Bubbles ----
+	g_flBubbleDepthFalloff "1.500"
+	g_flBubbleOpacity "0.597"
+	g_flBubbleScale "2.000"
+	g_flBubblesMaximum "0.650"
+	g_flBubblesMinimum "0.150"
+	g_flBubbleSpaceScale "0.100"
+	g_flBubbleSpeed "0.100"
+	g_flBubbleStrength "0.100"
+	g_vBubbleColorInner "[0.000000 0.000000 0.000000 0.000000]"
+	g_vBubbleColorOuter "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.099"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Liquid ----
+	g_flBrightenEmptyArea "0.000"
+	g_flFresnelGlassThickness "0.388"
+	g_flLiquidBackFade "0.000"
+	g_flLiquidBackOffset "1.493"
+	g_flLiquidBrightness "0.746"
+	g_flLiquidEmissiveStrength "0.000"
+	g_flLiquidInnerGlow "0.000"
+	g_flLiquidLevelHeight "0.537"
+	g_flLiquidLevelHeightDelta "0.507"
+	g_flLiquidRoughness "1.000"
+	g_flLiquidSharpness "53.963"
+	g_flLiquidSpecularStrength "0.000"
+	g_flLiquidSurfaceSpecularStrength "50.000"
+	g_flLiquidWobbleScale "0.000"
+	g_flLiquidWobbleSpeed "0.100"
+	g_flLiquidWobbleWavelength "24.627"
+	g_flMaskMaximum "1.000"
+	g_flMaskMinimum "0.000"
+	g_flSurfaceTension "1.000"
+	g_flTransmissiveStrength "8.209"
+	g_flWaterLineStrength "2.388"
+	g_vLiquidColor "[0.627451 0.000000 0.000000 0.000000]"
+	g_vLiquidLevelDownwardsMinMidMax "[-20.000 0.000 20.000]"
+	g_vLiquidLevelSidewardsMinMidMax "[-20.000 0.000 20.000]"
+	g_vLiquidLevelUpwardsMinMidMax "[-20.000 0.000 20.000]"
+	TextureLiquidMask "materials/saucebottle/sauce_mask.png"
+
+	//---- Refraction ----
+	g_flChromaticDispersion "-0.500"
+	g_flCubeRefractBrightness "0.000"
+	g_flCubeRefractLiquidTransparency "0.000"
+	g_flCubeRefractTransparency "0.000"
+	g_flRefractRoughnessMultiplier "4.000"
+
+	//---- Simple Material ----
+	TextureColorA "materials/saucebottle/saucebottle_defaultmaterial_basecolor.png"
+	TextureMetalnessA "materials/saucebottle/saucebottle_defaultmaterial_metallic.png"
+	TextureNormalA "materials/saucebottle/saucebottle_defaultmaterial_normal.png"
+	TextureRoughnessA "materials/saucebottle/saucebottle_defaultmaterial_roughness.png"
+
+	//---- Test Values ----
+	g_flTestAgitation "0.000"
+	g_vTestGravityDir "[0.000 0.000 -1.000]"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

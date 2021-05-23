@@ -1,0 +1,44 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_simple.vfx"
+
+	//---- PBR ----
+	F_AMBIENT_OCCLUSION_TEXTURE 1
+	F_METALNESS_TEXTURE 1
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "E:/SteamLibrary/steamapps/common/sbox/addons/mall/materials/table1/table1_DefaultMaterial_AO.png"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "E:/SteamLibrary/steamapps/common/sbox/addons/mall/materials/table1/table1_DefaultMaterial_Color.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "E:/SteamLibrary/steamapps/common/sbox/addons/mall/materials/table1/table1_DefaultMaterial_Metalness.png"
+
+	//---- Normal ----
+	TextureNormal "E:/SteamLibrary/steamapps/common/sbox/addons/mall/materials/table1/table1_DefaultMaterial_Normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "E:/SteamLibrary/steamapps/common/sbox/addons/mall/materials/table1/table1_DefaultMaterial_Rough.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}
