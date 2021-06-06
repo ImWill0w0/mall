@@ -13,7 +13,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/hotspots/glass1_hs/atlassheet2_defaultmaterial_basecolor.png"
+	TextureColor "materials/default/default_color.tga"
 
 	//---- Emissive ----
 	g_flEmissiveEdgeColorFalloff "3.000"
@@ -34,7 +34,7 @@ Layer0
 	g_flEdgeColorMaxOpacity "0.500"
 	g_flEdgeColorThickness "0.100"
 	g_vEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
-	GlassTintColor "[0.396078 0.396078 0.396078 0.000000]"
+	GlassTintColor "[0.725490 0.725490 0.725490 0.000000]"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
